@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mythic AI – AI Girlfriend & AI Companions | Chat Now</title>
+  <meta name="description" content="Mythic AI – Chat with the most advanced AI girlfriends online. Discover companions that listen, care, and evolve with you. Try Mythic AI today.">
+  <meta name="keywords" content="AI girlfriend, AI companion, AI chat, virtual girlfriend, AI dating, chatbot girlfriend">
+  <link rel="canonical" href="https://mythic-ai.org/">
+  <meta property="og:title" content="Mythic AI – AI Girlfriend & AI Companions">
+  <meta property="og:description" content="Chat with the most advanced AI girlfriends online. Safe, smart, and always available.">
+  <meta property="og:image" content="https://mythic-ai.org/images/banner.png">
+  <meta property="og:url" content="https://mythic-ai.org/">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Mythic AI – AI Girlfriend & AI Companions">
+  <meta name="twitter:description" content="Chat with the most advanced AI girlfriends online. Safe, smart, and always available.">
+  <meta name="twitter:image" content="https://mythic-ai.org/images/banner.png">
+  <meta name="robots" content="index, follow">
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+      background: linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%);
+      color: #e0e0e0;
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+
+    header {
+      background: rgba(15, 12, 41, 0.8);
+      backdrop-filter: blur(10px);
+      padding: 1.5rem 2rem;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    header h1 {
+      color: #ff6b9d;
+      font-size: 1.8rem;
+      font-weight: 700;
+      display: inline-block;
+      background: linear-gradient(135deg, #ff6b9d 0%, #c06c84 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    nav {
+      float: right;
+      margin-top: 0.5rem;
+    }
+
+    nav a {
+      color: #e0e0e0;
+      text-decoration: none;
+      margin-left: 2rem;
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #ff6b9d;
+    }
+
+    .banner {
+      width: 100%;
+      overflow: hidden;
+      background: rgba(0, 0, 0, 0.3);
+    }
+
+    .banner img {
+      width: 100%;
+      height: auto;
+      display: block;
+      object-fit: cover;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 2rem;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 6rem 2rem;
+      background: radial-gradient(circle at center, rgba(255, 107, 157, 0.1) 0%, transparent 70%);
+    }
+
+    .hero h2 {
+      font-size: 3.5rem;
+      margin-bottom: 1.5rem;
+      background: linear-gradient(135deg, #ff6b9d 0%, #ffd93d 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      font-weight: 800;
+    }
+
+    .hero p {
+      font-size: 1.3rem;
+      color: #b0b0b0;
+      max-width: 600px;
+      margin: 0 auto 2.5rem;
+      line-height: 1.8;
+    }
+
+    .cta {
+      display: inline-block;
+      background: linear-gradient(135deg, #ff6b9d 0%, #c06c84 100%);
+      color: white;
+      padding: 1rem 3rem;
+      text-decoration: none;
+      border-radius: 50px;
+      font-weight: 600;
+      font-size: 1.1rem;
+      transition: all 0.3s ease;
+      box-shadow: 0 10px 30px rgba(255, 107, 157, 0.3);
+    }
+
+    .cta:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 15px 40px rgba(255, 107, 157, 0.5);
+    }
+
+    .features {
+      padding: 4rem 2rem;
+      background: rgba(0, 0, 0, 0.2);
+      backdrop-filter: blur(10px);
+      margin: 2rem 0;
+    }
+
+    .features h2 {
+      text-align: center;
+      font-size: 2.5rem;
+      margin-bottom: 3rem;
+      color: #fff;
+    }
+
+    .features ul {
+      list-style: none;
+      max-width: 800px;
+      margin: 0 auto;
+      display: grid;
+      gap: 2rem;
+    }
+
+    .features li {
+      background: rgba(255, 255, 255, 0.05);
+      padding: 2rem;
+      border-radius: 15px;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      font-size: 1.2rem;
+      transition: all 0.3s ease;
+    }
+
+    .features li:hover {
+      background: rgba(255, 255, 255, 0.08);
+      transform: translateX(10px);
+      border-color: rgba(255, 107, 157, 0.3);
+    }
+
+    .blog-preview {
+      padding: 4rem 2rem;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .blog-preview h2 {
+      text-align: center;
+      font-size: 2.5rem;
+      margin-bottom: 3rem;
+      color: #fff;
+    }
+
+    .blog-preview ul {
+      list-style: none;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .blog-preview li {
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 15px;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      overflow: hidden;
+      transition: all 0.3s ease;
+    }
+
+    .blog-preview li:hover {
+      transform: translateY(-5px);
+      border-color: rgba(255, 107, 157, 0.5);
+      box-shadow: 0 10px 30px rgba(255, 107, 157, 0.2);
+    }
+
+    .blog-preview a {
+      display: block;
+      padding: 2rem;
+      color: #e0e0e0;
+      text-decoration: none;
+      font-size: 1.1rem;
+      font-weight: 500;
+    }
+
+    .blog-preview a:hover {
+      color: #ff6b9d;
+    }
+
+    footer {
+      text-align: center;
+      padding: 3rem 2rem;
+      background: rgba(0, 0, 0, 0.3);
+      margin-top: 4rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+      color: #888;
+    }
+
+    footer a {
+      color: #ff6b9d;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 1.5rem;
+      }
+
+      nav {
+        float: none;
+        margin-top: 1rem;
+      }
+
+      nav a {
+        margin-left: 0;
+        margin-right: 1.5rem;
+      }
+
+      .hero h2 {
+        font-size: 2.5rem;
+      }
+
+      .hero p {
+        font-size: 1.1rem;
+      }
+
+      .blog-preview ul {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Mythic AI</h1>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/blog/">Blog</a>
+      <a href="https://mythicvr.com/classic?ref=mythic-ai-org" target="_blank">Try Now</a>
+    </nav>
+  </header>
+  <section class="banner">
+    <img src="images/banner.png" alt="Mythic AI - Advanced AI Girlfriend and Companion Chat Platform">
+  </section>
+  <section class="hero">
+    <h2>Your AI Girlfriend Awaits</h2>
+    <p>Chat, laugh, and share moments with AI companions designed to understand you. Safe, smart, and always available.</p>
+    <a href="https://mythicvr.com/classic?ref=mythic-ai-org" class="cta" rel="noopener">Visit Site →</a>
+  </section>
+  <section class="features">
+    <h2>Why Mythic AI?</h2>
+    <ul>
+      <li>💬 Realistic Conversations – Feels like texting a close friend.</li>
+      <li>🎨 Creative Companions – Custom personalities & styles.</li>
+      <li>🔒 Always Private – Your chats stay between you and your AI.</li>
+    </ul>
+  </section>
+  <section class="blog-preview">
+    <h2>Latest Guides</h2>
+    <ul>
+      <li><a href="/blog/best-ai-girlfriend-apps.html">Best AI Girlfriend Apps in 2025</a></li>
+      <li><a href="/blog/ai-girlfriend-vs-chatgpt.html">AI Girlfriend vs ChatGPT</a></li>
+      <li><a href="/blog/is-ai-dating-safe.html">Is AI Dating Safe?</a></li>
+      <li><a href="/blog/best-ai-dating-sites.html">Best AI Dating Sites</a></li>
+    </ul>
+  </section>
+  <footer>
+    <p>&copy; 2025 Mythic AI | <a href="/sitemap.xml">Sitemap</a></p>
+  </footer>
+</body>
+</html>
