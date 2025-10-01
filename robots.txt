@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://mythic-ai.org/sitemap.xml
+Sitemap: https://ai-girlfriend.info/sitemap.xml
