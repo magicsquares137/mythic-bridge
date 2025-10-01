@@ -1,0 +1,22 @@
+New Blog Post Checklist:1. Content Requirements:
+
+1500-2500 words minimum
+Target one specific long-tail keyword
+Include <!DOCTYPE html> at top
+Proper meta description (150-160 characters)
+Canonical URL pointing to itself
+Add tracking script: <script src="/js/tracking.js"></script>
+2. Internal Linking:
+
+Link to homepage once
+Link to 2-3 related blog posts
+Use descriptive anchor text with keywords
+3. External Links:
+
+2-3 CTAs to your main site (mythicvr.com)
+All external links need rel="noopener"
+4. Site Updates:
+
+Add to sitemap.xml with current date
+Add to blog/index.html list
+Link from homepage "Latest Guides" section
